@@ -19,5 +19,3 @@ This is because with the same profile for the console, there is 2 README.md file
 ## To do
 
 Improve.
-
-Render md files to HTML.
