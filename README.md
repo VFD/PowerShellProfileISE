@@ -1,6 +1,6 @@
 ### Profile for PowerShell ISE
 
-<div style="text-align: center;">&#128679; Mise à jour au fil de l'eau et des demandes &#128679;
+<div style="text-align: center;">
 
 [Paypal Donate](https://www.paypal.com/donate/?business=5LX8QALBQH58U&no_recurring=0&currency_code=EUR)
 
