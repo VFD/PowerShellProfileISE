@@ -27,6 +27,9 @@ You have to put it in this directory (mandatory) :
                 └── 📄 Microsoft.PowerShellISE_profile.ps1
 ```
 
+It make sens that is for "User" only.
+
+So no interferences with others.
 
 ### Naming the file (Mandatory)
 
