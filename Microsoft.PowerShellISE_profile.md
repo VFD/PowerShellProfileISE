@@ -40,9 +40,20 @@ Otherwise, this doesn't works.
 
 Don't know, i never use PowerShell on $nix systems.
 
+### Naming the file (Mandatory)
+
+The name of the file MUST be "Microsoft.PowerShellISE_profile.ps1".
+
+Otherwise, this doesn't works.
+
 ## Installation for Apple OS
 
 ### Where to put the PS1 Profile
 
 Don't know, i never use PowerShell on Apple OS systems.
 
+### Naming the file (Mandatory)
+
+The name of the file MUST be "Microsoft.PowerShellISE_profile.ps1".
+
+Otherwise, this doesn't works.
