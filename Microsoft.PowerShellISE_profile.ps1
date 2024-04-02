@@ -7,18 +7,18 @@ function prompt {
 	Write-Host
 	Write-Host -NoNewLine "["
 	Write-Host -NoNewLine (Get-Date -Format "dd/MM/yyyy | HH:mm") -ForegroundColor White
-	Write-Host -NoNewLine "] "
-	Write-Host -NoNewLine $env:UserName.ToLower()
-	Write-Host -NoNewLine "@"
-	Write-Host -NoNewLine $env:UserDomain.ToLower()
-	Write-Host -NoNewLine " on "
-	Write-Host -NoNewLine $env:ComputerName
-	Write-Host -NoNewLine " ("
+	Write-Host -NoNewLine "] ["
+	Write-Host -NoNewLine $env:UserName.ToLower() -ForegroundColor Blue
+	Write-Host -NoNewLine "@" -ForegroundColor Blue
+	Write-Host -NoNewLine $env:UserDomain.ToLower() -ForegroundColor Blue
+	Write-Host -NoNewLine "] on ["
+	Write-Host -NoNewLine $env:ComputerName -ForegroundColor Yellow
+	Write-Host -NoNewLine "] ("
 	Write-Host -NoNewLine $env:OS
 	Write-Host -NoNewLine ")"
-	Write-Host -NoNewLine "`n[> "
+	Write-Host -NoNewLine "`n["
 	Write-Host -NoNewLine (Get-Location).Path -ForegroundColor Red
-	Write-Host -NoNewLine " <]"
+	Write-Host -NoNewLine "]"
 	return "`nPS > "
 }
 
